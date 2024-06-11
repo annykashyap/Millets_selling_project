@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+   
+#similar_products_cards{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+@media only screen and (max-width:425px){
+    #similar_products_cards{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        
+        }
+        #similar_cards{
+            margin-bottom: 20px;
+
+        }
+
+}

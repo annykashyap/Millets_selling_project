@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.container-fluid {
+  background-color: #00a884;
+}
+#topnavbar{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 50px;
+  padding: 0;
+}
+#navform {
+  width: 50%;
+  position: relative;
+}
+
+#navform .btn {
+  position: absolute;
+
+  right: 0;
+}
+
+.second_nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .second_nav {
+    display: none;
+  }
+  #navform .form-control,
+  .mybtn {
+    display: none;
+  }
+  .nav-item:hover{
+    background-color: #fff;
+    cursor:pointer;
+    
+  }
+  
+
+}
+@media only screen and (max-width: 768px){
+  #topnavbar{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

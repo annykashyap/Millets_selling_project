@@ -1,0 +1,25 @@
+:root{
+    --main-color: #07492bf5; 
+}
+.myrow h1{
+    color: var(--main-color);
+    font-size: 2rem;
+}
+.myrow h3{
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+.myrow p{
+    color: var(--main-color);
+}
+.form-data{
+    padding: 0px 40px;
+    color:var(--main-color);
+    text-align: start;
+}
+@media only screen and (max-width:700px) {
+    .loginclass{
+      padding-right: 50%; 
+      padding-left: 0;
+    } 
+}

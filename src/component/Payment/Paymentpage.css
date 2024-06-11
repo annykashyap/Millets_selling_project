@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+@media only screen and (max-width:768px){
+    #content_section_heading{
+        font-size: 10px;
+
+    }
+
+}
